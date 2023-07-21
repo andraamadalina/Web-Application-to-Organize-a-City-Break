@@ -1,0 +1,49 @@
+﻿.flex-container {
+    display: flex;
+    margin-left: 124px;
+    margin-right: 124px;
+    font-family: Light 300;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+    .flex-container > div {
+        margin: 10px;
+        font-size: 30px;
+    }
+
+.booking-form-box{
+    max-width: 400px;
+    height: 340px;
+    border: 1px solid #ced4da;
+    margin: 10% auto 0;
+}
+
+.booking-form {
+    padding: 0 20px 20px;
+    font-weight: bold;
+}
+
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 17px;
+    color: darkorange;
+}
+
+input::placeholder{
+    color: #fff !important;
+}
+
+.input-grp {
+    width: 150px;
+    display: inline-block;
+}
+
+.form-control {
+    font-size: 17px !important;
+    border-radius: 0 !important;
+    color: black !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}

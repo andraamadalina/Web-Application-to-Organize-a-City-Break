@@ -1,0 +1,127 @@
+﻿body {
+    font-family: Light 300;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/*1*/
+.overlay1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+    .overlay1:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+.popup1 {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+    .popup1 h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup1 .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .popup1 .close:hover {
+            color: #06D85F;
+        }
+
+    .popup1 .content {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+@media screen and (max-width: 700px) {
+    .popup1 {
+        width: 70%;
+    }
+}
+
+
+/*2*/
+.overlay2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+    .overlay2:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+.popup2 {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+    .popup2 h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    .popup2 .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .popup2 .close:hover {
+            color: #06D85F;
+        }
+
+    .popup2 .content {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+@media screen and (max-width: 700px) {
+    .popup2 {
+        width: 70%;
+    }
+}

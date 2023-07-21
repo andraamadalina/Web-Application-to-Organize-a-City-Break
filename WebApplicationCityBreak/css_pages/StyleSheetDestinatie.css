@@ -1,0 +1,31 @@
+﻿body {
+    font-family: Light 300;
+}
+
+section {
+    margin-left: 124px;
+    /*margin-right: 124px;*/
+    margin-top: 50px;
+}
+
+h1 {
+    color: #FF8800;
+    margin-bottom: 20px;
+}
+
+span{
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .flex-container > div {
+        width: 200px;
+        margin: 10px;
+        line-height: 75px;
+        display: grid;
+    }
+

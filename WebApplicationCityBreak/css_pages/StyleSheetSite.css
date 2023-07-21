@@ -1,0 +1,26 @@
+﻿/*PAGINA SITE*/
+
+.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+    font-family: "Light 300";
+}
+
+#footer1 {
+    background-color: #6DBDC2;
+    font-family: "Light 300";
+}
+
+#footer2 {
+    background-color: #2C99A0;
+    font-family: "Light 300";
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: darkblue;
+    font-family: "Light 300";
+}
+
+
+
